@@ -1,7 +1,7 @@
-import './modules/BookForm.js';
-import { library } from './modules/Library.js';
-import { DateTime } from './modules/luxon.js';
-import Router from './modules/Router.js';
+import '../BookForm.js';
+import { library } from '../Library.js';
+import { DateTime } from '../luxon.js';
+import Router from '../Router.js';
 
 const todayContainer = document.getElementById('today');
 const routerLinks = document.querySelectorAll('[data-to]');
